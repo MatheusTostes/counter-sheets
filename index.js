@@ -64,7 +64,7 @@ app.get("/getRows/", async (req, res) => {
     dateTimeRenderOption: "FORMATTED_STRING",
   });
 
-  return res.send(getRows.data);
+  res.send(getRows.data);
 });
 
 // app.post("/addRow", async (req, res) => {
